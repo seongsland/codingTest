@@ -41,7 +41,7 @@ public class Test2178 {
 
 	private static void BFS(int matrixX, int matrixY) {
 		visited[matrixX][matrixY]   = true;
-		Queue<int[]> bfsQueue = new LinkedList();
+		Queue<int[]> bfsQueue = new LinkedList<>();
 		bfsQueue.offer(new int[] { matrixX, matrixY });
 
 		while (!bfsQueue.isEmpty()) {
